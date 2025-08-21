@@ -15,7 +15,7 @@ import subprocess  # Import subprocess for opening applications
 pygame.mixer.init()
 
 # Configure the Gemini model
-genai.configure(api_key="AIzaSyCk24LgF1T9VW4fqltn8rubr2wYFFmJpEk")
+genai.configure(api_key="Enter your API Key")
 instruction2llm = '''
 "Please respond only in JSON format. When I provide text for analysis, respond with the appropriate module, its parameters, the count of those parameters, a success flag, and a brief description. If you cannot understand the input, respond with 'Sorry, I can't understand.' Here are additional modules to be integrated into our talking robot program, along with examples of inputs and their expected outputs, Send to GeminiModule if you cant understand :
 
@@ -508,3 +508,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
